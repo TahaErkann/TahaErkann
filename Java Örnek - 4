@@ -1,0 +1,14 @@
+package YazOryantasyon;  //Girilen sayının faktöriyelini hesaplayan program
+import java.util.Scanner;
+public class Faktoriyel{
+	public static void main(String[] args) {
+	int faktoriyel = 1;
+		Scanner giris = new Scanner(System.in);
+		System.out.println("Bir adet sayi giriniz.");
+		int a = giris.nextInt();
+		for (int i=1; i<=a; ++i) {
+			faktoriyel *= i;
+		}
+		System.out.println("Girilen sayinin faktoriyeli=" +faktoriyel);
+}
+	}
