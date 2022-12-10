@@ -1,4 +1,4 @@
-package YazOryantasyon;  //Dikdörtgenin hacmini hesaplayan program
+package YazOryantasyon;  //Kenar uzunlukları kullanıcı tarafından girilen dikdörtgenin hacmini hesaplayan program
 import java.util.Scanner;
 public class Hacim {
 public static void main(String[] args) {
