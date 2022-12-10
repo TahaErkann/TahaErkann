@@ -1,0 +1,12 @@
+package YazOryantasyon;  //Yarıçapı kullanıcı tarafından girilen dairenin çevresini hesaplayan program
+import java.util.Scanner;
+public class Cevre{
+	public static void main(String[] args) {
+	final double PI = 3.14;
+	Scanner giris = new Scanner(System.in);
+	System.out.println("Lutfen yaricap degerini giriniz.");
+	double yaricap = giris.nextDouble();
+	double cevre = 2*PI*yaricap;
+	System.out.println("Yaricapi kullanici tarafindan girilen dairenin cevresi=" +cevre);
+	}
+}
