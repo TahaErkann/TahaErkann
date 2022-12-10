@@ -1,0 +1,12 @@
+package YazOryantasyon;  //Yol ve hız değerleri kullanıcı tarafından girilen aracın geçirdiği süreyi bulan program
+import java.util.Scanner;
+public class Zaman {
+public static void main(String[] args) {
+	Scanner giris = new Scanner(System.in);
+	System.out.println("Yol(x) ve hiz(v) degerlerini giriniz.");
+	double x = giris.nextDouble();
+	double v = giris.nextDouble();
+	double t = x/v;
+	System.out.println("Zaman=" +t);
+}
+}
