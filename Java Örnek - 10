@@ -1,0 +1,22 @@
+package YazOryantasyon;    //2.dereceden bir denklemin diskriminantını ve köklerini bulan program
+import java.util.Scanner;
+public class Kok{
+	public static void main(String[] args) {
+	Scanner giris = new Scanner(System.in);
+	System.out.println("ax2+bx+c şeklindeki 2.dereceden denklemin katsayi degerlerini giriniz.");
+	int a = giris.nextInt();
+	int b = giris.nextInt();
+	int c = giris.nextInt();
+	double delta = (b*b) - (4*a*c);
+	if (delta < 0)
+		System.out.println("Denklemin gercel koku yoktur.");
+	else if (delta == 0) {
+		double x = (-1*b)/(2*a);
+		System.out.println("Denklemin cakisik iki koku bulunmaktadir ve bu kokler birbirine esittir ve bu deger=" +x +"dir.");}
+		else {
+			double x1 = ((-1*b)-(Math.sqrt(delta)))/(2*a);
+			double x2 = ((-1*b)+(Math.sqrt(delta)))/(2*a);
+			System.out.println("Denklemin iki farkli koku vardir ve bu kokler sirasiyla" +x1 +"ve" +x2 +"dir");
+			}
+		}
+	}	
