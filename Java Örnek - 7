@@ -1,0 +1,13 @@
+package YazOryantasyon;  //Dikdörtgenin hacmini hesaplayan program
+import java.util.Scanner;
+public class Hacim {
+public static void main(String[] args) {
+	Scanner giris = new Scanner(System.in);
+	System.out.println("Lutfen sirasiyla x,y ve z degerlerini giriniz.");
+	double x = giris.nextDouble();
+	double y = giris.nextDouble();
+	double z = giris.nextDouble();
+	double hacim = x*y*z;
+	System.out.println("Dikdortgenin hacmi=" +hacim);
+}
+}
