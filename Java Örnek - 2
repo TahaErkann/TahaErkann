@@ -1,0 +1,16 @@
+package YazOryantasyon;  //Girilen iki sayının birbirine göre karşılaştırmasını yapan program
+import java.util.Scanner;
+public class Karsilastirma{
+	public static void main(String[] args) {
+		Scanner giris = new Scanner(System.in);
+		System.out.println("Lutfen iki adet sayi giriniz.");
+		double a = giris.nextDouble();
+		double b = giris.nextDouble();
+		if (a < b)
+			System.out.println("a sayisi b sayisindan kucuktur.");
+		else if (a > b)
+			System.out.println("a sayisi b sayisindan buyuktur.");
+		else
+			System.out.println("a sayisi b sayisina esittir.");
+	}
+}
