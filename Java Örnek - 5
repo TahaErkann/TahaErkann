@@ -1,0 +1,10 @@
+package YazOryantasyon;  //Girilen sayının karesini (2.kuvvet) hesaplayan program
+import java.util.Scanner;
+public class KareHesaplama{
+	public static void main(String[] args) {
+		Scanner giris = new Scanner(System.in);
+		System.out.println("Lutfen bir adet sayi giriniz.");
+		int a = giris.nextInt();
+		System.out.println(Math.pow(a, 2));
+	}
+}
